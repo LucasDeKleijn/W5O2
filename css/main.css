@@ -1,0 +1,32 @@
+body {
+	color: white;
+}
+.wrapper {
+	background-image: url(../images/header_bg.jpg);
+	width: 1349px;
+	height: 667px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 40px;
+    padding-right: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+nav li {
+	float: right;
+	width: 39px;
+	border-right: solid black 1px;
+}
+nav li:first-child {
+	border: none;
+}
+nav a {
+	display: block;
+	padding: 8px;
+}
